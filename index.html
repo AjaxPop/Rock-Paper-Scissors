@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="jquery-ui-1.12.1//jquery-ui.css">
+    <link rel="stylesheet" href="rps.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li id="about"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="container">
+            <h2 id="hTitle">Rock Paper Scissors</h2>
+            <p id="player" class="pick">Player Picks:</p>
+            <p id="computer" class="pick">Computer Picks:</p>
+            <button id="rock" title="Rock">Rock</button>
+            <button id="paper" title="Paper">Paper</button>
+            <button id="scissors" title="Scissors">Scissors</button>
+        </div>
+
+        <div id="draw" title="Draw">
+            <p>It's a draw. To close this box click the 'x' icon.</p>
+        </div>
+
+        <div id="compWon" title="Computer Won">
+            <p>The computer won the game. To close this box click the 'x' icon.</p>
+        </div>
+
+        <div id="playWon" title="Player Won">
+            <p>The player won the game. To close this box click the 'x' icon.</p>
+        </div>
+    </main>
+    <script src="jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="rps.js"></script>
+</body>
+</html>
